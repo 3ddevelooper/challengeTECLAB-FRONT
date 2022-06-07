@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body,
+html,
+input {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 12pt;
+}
+
+button {
+    border: none !important;
+}
+
+td button {
+    background: none;
+}
+
+span {
+    color: grey;
+}
+
+span:hover {
+    color: red;
+}
+
+#visualization {
+    position: relative;
+    margin-bottom: 100px !important;
+}
+
+.btn-success {
+    background: teal !important;
+}
+
+#title {
+    color: teal !important;
+    font-size: 1.3rem;
+}
+
+form input {
+    height: 40px;
+}
+
+.menu {
+    position: absolute;
+    display: table-cell;
+    vertical-align: middle;
+    bottom: -60px;
+    right: 0;
+    margin: 10px;
+    z-index: 9999;
+}
+
+.range {
+    margin: -12px 12px 0 0;
+    background: #333;
+}
+
+label,
+input {
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+    height: 20px;
+    margin-top: -12px;
+    margin-right: 12px;
+}
+
+.buttons-menu {
+    background-color: #555;
+    color: #fff;
+    padding: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.buttons-menu:hover {
+    opacity: 0.9;
+}
